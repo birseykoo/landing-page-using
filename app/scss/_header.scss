@@ -1,0 +1,13 @@
+.header {
+  &__logo {
+      img {
+        width: 100%;
+      }
+  }
+  &__menu {
+    // Mobile menu
+    > span {
+        display: block;
+    }
+  }
+}
